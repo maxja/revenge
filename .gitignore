@@ -1,0 +1,67 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+
+# Executables (heuristic — add specific names if needed)
+a.out
+
+# Debug
+*.dSYM/
+*.dwarf
+core
+core.*
+vgcore.*
+
+# Zig
+zig-out/
+zig-cache/
+.zig-cache/
+
+# Rust
+target/
+Cargo.lock
+*.rlib
+.rustup/
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Dependency files
+*.d
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.zed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker (runtime)
+docker-compose.override.yml
+
+# perf / profiling
+perf.data
+perf.data.old
+*.svg
+flamegraph*.html
+
+# Frida
+*.js.map
+
+# Temporary
+tmp/
+.tmp/

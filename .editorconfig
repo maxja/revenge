@@ -1,0 +1,26 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{zig,zig.zon}]
+indent_style = space
+indent_size = 4
+
+[*.{c,cpp,cxx,h,hpp,hxx}]
+indent_style = space
+indent_size = 4
+
+[Makefile,cmake]
+indent_style = tab
+
+[*.{yml,yaml,ini,toml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false

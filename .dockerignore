@@ -1,0 +1,44 @@
+.git/
+.gitignore
+
+# Build artifacts — rebuild inside the container
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.out
+*.elf
+a.out
+zig-out/
+zig-cache/
+.zig-cache/
+
+# Rust
+target/
+Cargo.lock
+
+# Debug / profiling data
+*.dSYM/
+core
+core.*
+perf.data
+perf.data.old
+*.svg
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.zed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker meta (avoid recursive context)
+Dockerfile
+docker-compose*.yml
+.dockerignore
