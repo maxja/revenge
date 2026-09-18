@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64">
+  <style>
+    text { fill: #24292f; }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #e6edf3; }
+    }
+  </style>
+  <g transform="scale(0.78, 1)">
+    <text
+      x="5" y="50"
+      font-family="Georgia, 'Times New Roman', 'Palatino Linotype', serif"
+      font-size="3em"
+      font-weight="600"
+      letter-spacing="-1"
+    >reveng<tspan font-size=".75em" baseline-shift=".33em">e</tspan></text>
+  </g>
+</svg>

@@ -1,8 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/title-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset=".github/assets/title-light.svg">
-  <img alt="revenge" src=".github/assets/title-light.svg" width="280">
-</picture>
+<h1>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset=".github/assets/revenge.svg" />
+        <source media="(prefers-color-scheme: light)" srcset=".github/assets/revenge.svg" />
+        <img alt="revenge" src=".github/assets/revenge.svg" width="280" />
+    </picture>
+</h1>
 
 **rev**erse **eng**ineering — a learning project.
 
@@ -11,8 +13,6 @@ reverse engineering, dynamic instrumentation, network analysis, and performance
 profiling.
 
 > **Audience:** me, first. If you stumbled on this and it helps you too, great.
-
----
 
 ## Motivation
 
