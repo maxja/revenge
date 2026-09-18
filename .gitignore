@@ -56,7 +56,6 @@ docker-compose.override.yml
 # perf / profiling
 perf.data
 perf.data.old
-*.svg
 flamegraph*.html
 
 # Frida

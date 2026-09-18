@@ -1,4 +1,8 @@
-# revenge
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/title-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/title-light.svg">
+  <img alt="revenge" src=".github/assets/title-light.svg" width="280">
+</picture>
 
 **rev**erse **eng**ineering — a learning project.
 
